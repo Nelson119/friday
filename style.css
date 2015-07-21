@@ -5,6 +5,12 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+a img{
+  border: 0;
+}
+a:focus{
+  outline: none;
+}
 
 .page {
   position: relative;
@@ -15,6 +21,10 @@ body {
 .reset {
   position: absolute;
   top: 0;
+}
+.reset object img{
+  width: 100%;
+  height:auto!important;
 }
 
 .page img {
@@ -58,7 +68,7 @@ body {
 
 #page-1 a {
   right: 15%;
-  top: 114%;
+  top: 60%;
   width: 19%;
   height: 22%;
 }
