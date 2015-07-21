@@ -20,9 +20,10 @@ $( document ).ready(function() {
     // });
 
     $('div.page').each(function(){
+          // console.log($(this).offset().top < $(window).scrollTop() + 10)
         if (
-           $(this).offset().top < window.pageYOffset + 10
-        && $(this).offset().top + $(this).height() > window.pageYOffset + 10
+           $(this).offset().top < $(window).scrollTop() + 10
+        && $(this).offset().top + +$(this).css('padding-top').replace(/px/,'') > $(window).scrollTop() + 10
         ) {
             var pageId = $(this).attr('id');
           $('.pager a').each(function() {
@@ -38,6 +39,6 @@ $( document ).ready(function() {
 
   }
 
-  $(window).on('scroll', parallax);//, false);
+  $(window).on('scroll', parallax).trigger('scroll');//, false);
   $('a').smoothScroll({speed: 1200});
 });
