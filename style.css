@@ -1,0 +1,212 @@
+body {
+  margin: 0px;
+  background-image: url('images/s1_light.png');
+  background-color: #1f6bc0;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.reset {
+  position: absolute;
+  top: 0;
+}
+
+.page img {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.page a {
+  z-index: 255;
+  position: absolute;
+  /* 砍掉這行 
+  background-color: rgba(255,255,255, 0.5);*/
+}
+
+/* page-1 */
+
+#page-1 {
+  margin-bottom: 20%;
+}
+
+#page-1 a {
+  right: 15%;
+  top: 114%;
+  width: 19%;
+  height: 22%;
+}
+
+#page-1 .detail {
+  margin-top: 12%;
+}
+
+/* page-2 */
+
+#page-2 .phone {
+  z-index: -1;
+  margin-top: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-2 .detail {
+  z-index: 0;
+  /*margin-top: 20%;*/
+}
+
+/* page-3 */
+
+#page-3 {
+  margin-top: -6px;
+  z-index: 1;
+}
+
+#page-3 .bg {
+  z-index: -1;
+}
+
+#page-3 .phone {
+  z-index: 0;
+  top: 54%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-3 .detail {
+	width:50%;
+	left: 50%;
+  z-index: 0;
+  top: 92%;
+}
+
+/* page-4 */
+
+#page-4 {
+  margin-top: -17px;
+}
+
+#page-4 .phone {
+  top: 86%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-4 .detail {
+	width:50%;
+	left: 50%;
+  top: 145%;
+}
+
+/* page-5 */
+#page-5 .phone {
+  top: 114%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-5 .detail {
+	width:50%;
+	left: 50%;
+  top: 193%;
+}
+
+/* page-6 */
+#page-6 .phone {
+  top: 146%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-6 .detail {
+	width:50%;
+	left: 50%;
+  top: 242.5%;
+}
+
+/* page-7 */
+
+#page-7 {
+  z-index: 1;
+}
+#page-7 .phone {
+  top: 175%;
+  width: 100%;
+  height: 100%;
+}
+
+#page-7 .detail {
+	width:50%;
+	left: 50%;
+  top: 292%;
+}
+
+#page-8 .image {
+  top: 210%;
+}
+
+#page-8 .image2 {
+  top: 280%;
+}
+
+#page-8 a.button1 {
+  right: 18%;
+  top: 408%;
+  width: 23%;
+  height: 10%;
+}
+
+#page-8 a.button2 {
+  right: 18%;
+  top: 421%;
+  width: 23%;
+  height: 6%;
+}
+
+/* page-5, 6, 7 */
+#page-5, #page-6, #page-7, #page-8 {
+  margin-top: -4px;
+}
+
+#page-6 {
+  z-index: 1;
+}
+
+/* pager */
+.pager {
+  position: fixed;
+  right: 15px;
+  top: 30%;
+  z-index: 5;
+}
+
+.pager ul {
+  list-style: none;
+}
+
+.pager li {
+  line-height: 25px
+}
+
+a {
+  color: rgba(255, 255, 255, 0.4);
+  border-color:#FFFFFF;
+}
+
+a:hover, a.selected {
+  color: white;
+  cursor: pointer;
+}
+
+/*flash*/
+#flashContent {
+  width:100%;
+  height:100%;
+  position:absolute;
+}
