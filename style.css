@@ -1,4 +1,4 @@
-body {
+ body {
   margin: 0px;
   background-image: url('images/s1_light.png');
   background-color: #1f6bc0;
@@ -57,7 +57,7 @@ a:focus{
 }
 #page-7,
 #page-8 {
-  padding-top: 56%;
+  padding-top: 46%;
 }
 #page-3{
   padding-top:56%;
